@@ -1,0 +1,4 @@
+python3-rstcheck: copyright-without-copyright-notice
+python3-rstcheck: initial-upload-closes-no-bugs
+python3-rstcheck: no-manual-page
+python3-rstcheck: zero-byte-file-in-doc-directory
