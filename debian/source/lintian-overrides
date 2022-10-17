@@ -1,0 +1,4 @@
+python-rstcheck source: file-without-copyright-information
+python-rstcheck source: no-debian-changes
+python-rstcheck source: source-contains-prebuilt-windows-binary
+python-rstcheck source: source-package-encodes-python-version
