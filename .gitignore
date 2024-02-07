@@ -16,4 +16,4 @@ build
 objects.*.txt
 .coverage_cache/
 .flakeheaven_cache/
-__version__.py
+.pybuild/
