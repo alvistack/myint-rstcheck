@@ -1,0 +1,28 @@
+Source: python-rstcheck
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/myint/rstcheck/tags
+Vcs-Browser: https://github.com/alvistack/myint-rstcheck
+Vcs-Git: https://github.com/alvistack/myint-rstcheck.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-rstcheck
+Architecture: all
+Description: Python module to check syntax of reStructuredText
+ Checks syntax of reStructuredText and code blocks nested within it.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ python3,
+ python3-importlib-metadata (>= 1.6),
+ python3-rstcheck-core (>= 1.1),
+ python3-typer (>= 0.4.1),
+ python3-typing-extensions (>= 3.7.4),
